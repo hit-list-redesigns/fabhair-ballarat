@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FabHair Ballarat · Hair salon on Victoria Street, Ballarat East</title>
+<meta name="description" content="FabHair Ballarat: colour, balayage, keratin, kids' and men's cuts at 2/75 Victoria Street, Ballarat East. Prices up front. Book online any time.">
+<meta name="theme-color" content="#1f3a2e">
+<meta property="og:title" content="FabHair Ballarat · We care about your hair">
+<meta property="og:description" content="Colour from $140, kids' cuts $28, clipper cuts $25. 2/75 Victoria Street, Ballarat East. Book online.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1554519934-e32b1629d9ee?w=1200&h=630&fit=crop&q=75">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%231f3a2e'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial Black,Arial' font-weight='900' font-size='26' fill='%23d4b068'%3EFH%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Ballarat bluestone */
+  --stone-950:#171d22;
+  --stone-900:#1e252b;
+  --stone-800:#2a3239;
+  --stone-700:#38424a;
+  --stone-500:#5f6b74;
+  --stone-300:#aab4bb;
+  --stone-200:#c4ccd1;
+  /* limewash (cool, not cream) */
+  --lime:#eceeec;
+  --lime-2:#e1e5e3;
+  --lime-3:#d3d9d7;
+  /* verandah iron, Brunswick green */
+  --iron:#1f3a2e;
+  --iron-700:#264636;
+  --iron-600:#2e5441;
+  /* signwriter's gilt */
+  --gilt:#d4b068;
+  --gilt-deep:#b8913f;
+  --ink:#1e252b;
+  --ink-soft:#4a555e;
+  --on-dark:#eef1ef;
+  --on-dark-soft:#bcc6cc;
+  --on-iron-soft:#c3d2c9;
+
+  --line:2px;
+  --course:72px;
+  --gutter:clamp(16px,4vw,56px);
+  --max:1320px;
+
+  --f-sign:"Archivo",system-ui,sans-serif;
+  --f-hair:"Bodoni Moda",Georgia,serif;
+
+  --ease-out:cubic-bezier(.16,1,.3,1);
+
+  --lace:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 72' width='160' height='72'%3E%3Cg fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 3H160M0 9H160M0 50H160'/%3E%3Ccircle cx='80' cy='29' r='13'/%3E%3Ccircle cx='80' cy='29' r='4.5'/%3E%3Cpath d='M80 9v7M80 42v8M73 22l4 4M87 22l-4 4M73 36l4-4M87 36l-4-4'/%3E%3Cpath d='M67 26C60 18 52 14 42 14C32 14 28 22 33 26C37 29 42 26 40 22M67 32C60 40 52 44 42 44C32 44 28 36 33 32C37 29 42 32 40 36M26 29H7M50 9C47 11 44 12 42 14M50 50C47 48 44 46 42 44'/%3E%3Cpath d='M93 26C100 18 108 14 118 14C128 14 132 22 127 26C123 29 118 26 120 22M93 32C100 40 108 44 118 44C128 44 132 36 127 32C123 29 118 32 120 36M134 29H153M110 9C113 11 116 12 118 14M110 50C113 48 116 46 118 44'/%3E%3Ccircle cx='0' cy='29' r='7'/%3E%3Ccircle cx='160' cy='29' r='7'/%3E%3Cpath d='M0 50Q10 63 20 50Q30 63 40 50Q50 63 60 50Q70 63 80 50Q90 63 100 50Q110 63 120 50Q130 63 140 50Q150 63 160 50M10 57v6M30 57v6M50 57v6M70 57v6M90 57v6M110 57v6M130 57v6M150 57v6'/%3E%3C/g%3E%3Cg fill='black'%3E%3Ccircle cx='10' cy='67' r='2.6'/%3E%3Ccircle cx='30' cy='67' r='2.6'/%3E%3Ccircle cx='50' cy='67' r='2.6'/%3E%3Ccircle cx='70' cy='67' r='2.6'/%3E%3Ccircle cx='90' cy='67' r='2.6'/%3E%3Ccircle cx='110' cy='67' r='2.6'/%3E%3Ccircle cx='130' cy='67' r='2.6'/%3E%3Ccircle cx='150' cy='67' r='2.6'/%3E%3C/g%3E%3C/svg%3E");
+  --lace-open:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 72' width='160' height='72'%3E%3Cg fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='80' cy='29' r='13'/%3E%3Ccircle cx='80' cy='29' r='4.5'/%3E%3Cpath d='M80 9v7M80 42v8M73 22l4 4M87 22l-4 4M73 36l4-4M87 36l-4-4'/%3E%3Cpath d='M67 26C60 18 52 14 42 14C32 14 28 22 33 26C37 29 42 26 40 22M67 32C60 40 52 44 42 44C32 44 28 36 33 32C37 29 42 32 40 36M26 29H7M50 9C47 11 44 12 42 14M50 50C47 48 44 46 42 44'/%3E%3Cpath d='M93 26C100 18 108 14 118 14C128 14 132 22 127 26C123 29 118 26 120 22M93 32C100 40 108 44 118 44C128 44 132 36 127 32C123 29 118 32 120 36M134 29H153M110 9C113 11 116 12 118 14M110 50C113 48 116 46 118 44'/%3E%3Ccircle cx='0' cy='29' r='7'/%3E%3Ccircle cx='160' cy='29' r='7'/%3E%3Cpath d='M0 50Q10 63 20 50Q30 63 40 50Q50 63 60 50Q70 63 80 50Q90 63 100 50Q110 63 120 50Q130 63 140 50Q150 63 160 50M10 57v6M30 57v6M50 57v6M70 57v6M90 57v6M110 57v6M130 57v6M150 57v6'/%3E%3C/g%3E%3Cg fill='black'%3E%3Ccircle cx='10' cy='67' r='2.6'/%3E%3Ccircle cx='30' cy='67' r='2.6'/%3E%3Ccircle cx='50' cy='67' r='2.6'/%3E%3Ccircle cx='70' cy='67' r='2.6'/%3E%3Ccircle cx='90' cy='67' r='2.6'/%3E%3Ccircle cx='110' cy='67' r='2.6'/%3E%3Ccircle cx='130' cy='67' r='2.6'/%3E%3Ccircle cx='150' cy='67' r='2.6'/%3E%3C/g%3E%3C/svg%3E");
+  --ashlar:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='288' height='144'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='288' height='144' filter='url(%23n)'/%3E%3Cpath d='M0 .5H288M0 72.5H288M144.5 0V72M.5 72V144' stroke='white' stroke-opacity='.07' fill='none'/%3E%3C/svg%3E");
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:88px}
+body{
+  margin:0;background:var(--stone-800);color:var(--on-dark);
+  font-family:var(--f-sign);font-size:1.0625rem;line-height:1.6;
+  font-variation-settings:"wdth" 100;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-underline-offset:.22em;text-decoration-thickness:var(--line)}
+::selection{background:var(--gilt);color:var(--stone-950)}
+:focus-visible{outline:3px solid var(--gilt);outline-offset:3px;border-radius:2px}
+.light :focus-visible{outline-color:var(--iron)}
+html{scrollbar-color:var(--stone-500) var(--stone-950)}
+::-webkit-scrollbar{width:12px}
+::-webkit-scrollbar-track{background:var(--stone-950)}
+::-webkit-scrollbar-thumb{background:var(--stone-500);border:3px solid var(--stone-950);border-radius:8px}
+::-webkit-scrollbar-thumb:hover{background:var(--gilt-deep)}
+
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;z-index:100;background:var(--gilt);color:var(--stone-950);padding:10px 16px;font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+
+/* surfaces */
+.stone{background-color:var(--stone-800);background-image:var(--ashlar);color:var(--on-dark)}
+.light{background:var(--lime);color:var(--ink)}
+.iron{background:var(--iron);color:var(--on-dark)}
+
+/* type */
+h1,h2,h3{margin:0;font-family:var(--f-sign);text-wrap:balance}
+.display{font-weight:800;font-size:clamp(2.5rem,4.9vw,4.5rem);line-height:1;letter-spacing:-.03em;font-variation-settings:"wdth" 104}
+.h2{font-weight:800;font-size:clamp(2rem,3.6vw,3.25rem);line-height:1.04;letter-spacing:-.025em;font-variation-settings:"wdth" 104}
+.h3{font-weight:700;font-size:1.5rem;line-height:1.2;letter-spacing:-.01em}
+.hair{font-family:var(--f-hair);font-weight:500;font-style:italic;letter-spacing:0}
+.sign{font-family:var(--f-sign);font-variation-settings:"wdth" 125;font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem}
+.lede{font-family:var(--f-hair);font-style:italic;font-size:clamp(1.35rem,2vw,1.7rem);line-height:1.25;margin:0}
+.body{max-width:60ch}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* buttons */
+.btn{
+  --b-bg:var(--gilt);--b-fg:var(--stone-950);--b-bd:var(--gilt);
+  display:inline-flex;align-items:center;justify-content:center;gap:.6em;
+  min-height:52px;padding:.8em 1.5em;border:var(--line) solid var(--b-bd);border-radius:2px;
+  background:var(--b-bg);color:var(--b-fg);text-decoration:none;
+  font-family:var(--f-sign);font-weight:700;font-size:1rem;letter-spacing:.02em;font-variation-settings:"wdth" 112;
+  transition:background-color .25s var(--ease-out),color .25s var(--ease-out),transform .25s var(--ease-out),box-shadow .25s var(--ease-out);
+  cursor:pointer;white-space:nowrap
+}
+.btn svg{width:18px;height:18px;flex:none}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px -12px rgba(0,0,0,.55)}
+.btn:active{transform:translateY(0);box-shadow:none}
+.btn-primary:hover{--b-bg:#e0c07c;--b-bd:#e0c07c}
+.btn-ghost{--b-bg:transparent;--b-fg:var(--on-dark);--b-bd:rgba(238,241,239,.55)}
+.btn-ghost:hover{--b-bd:var(--on-dark);--b-bg:rgba(238,241,239,.06)}
+.light .btn-primary{--b-bg:var(--iron);--b-fg:var(--lime);--b-bd:var(--iron)}
+.light .btn-primary:hover{--b-bg:var(--iron-600);--b-bd:var(--iron-600)}
+.light .btn-ghost{--b-fg:var(--iron);--b-bd:var(--iron)}
+.light .btn-ghost:hover{--b-bg:rgba(31,58,46,.06)}
+.link{font-weight:700;color:inherit;text-decoration:underline;text-decoration-color:currentColor;display:inline-flex;align-items:center;gap:.45em}
+.link svg{width:16px;height:16px;transition:transform .25s var(--ease-out)}
+.link:hover svg{transform:translateX(4px)}
+
+/* ---------- fascia + verandah ---------- */
+.fascia{position:sticky;top:0;z-index:40;background:var(--iron);color:var(--on-dark);border-bottom:var(--line) solid var(--gilt-deep)}
+.fascia .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:72px}
+.mark{display:inline-flex;align-items:baseline;gap:.1em;text-decoration:none;color:var(--on-dark);line-height:1}
+.mark b{font-family:var(--f-sign);font-weight:900;font-variation-settings:"wdth" 125;font-size:1.65rem;letter-spacing:.01em}
+.mark i{font-family:var(--f-hair);font-style:normal;font-weight:400;font-size:1.95rem;letter-spacing:.02em;font-variation-settings:"opsz" 96}
+.mark small{margin-left:.7em;font-family:var(--f-sign);font-size:.66rem;font-weight:600;letter-spacing:.3em;font-variation-settings:"wdth" 125;color:var(--gilt);align-self:center}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a:not(.btn){text-decoration:none;font-weight:600;font-size:.95rem;color:var(--on-iron-soft);padding:6px 0;border-bottom:var(--line) solid transparent;transition:color .2s,border-color .2s}
+.nav a:not(.btn):hover{color:var(--on-dark);border-color:var(--gilt)}
+.nav .btn{min-height:44px;padding:.55em 1.1em;font-size:.95rem}
+.nav .tel{display:inline-flex;align-items:center;gap:.5em}
+.nav .tel svg{width:16px;height:16px}
+
+.verandah{height:72px;background:var(--on-dark);-webkit-mask:var(--lace) repeat-x 0 0/auto 100%;mask:var(--lace) repeat-x 0 0/auto 100%;opacity:.92}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding-bottom:var(--course);isolation:isolate;overflow:clip}
+.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(32px,5vw,80px);align-items:stretch;padding-top:calc(var(--course)*.5)}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;padding-block:12px}
+.hero-copy .display{max-width:13ch}
+/* copy below the headline sits above the cast shadow; only the H1 and the window take the shade */
+.hero-copy>:not(h1){position:relative;z-index:3}
+.hero-copy .lede{color:var(--gilt);margin-top:28px}
+.hero-copy .body{color:var(--on-dark-soft);margin:12px 0 0}
+.board-strip{list-style:none;margin:32px 0 0;padding:0;max-width:30rem;border-top:var(--line) solid rgba(238,241,239,.22)}
+.board-strip li{display:flex;align-items:baseline;gap:12px;padding:12px 0;border-bottom:var(--line) solid rgba(238,241,239,.22)}
+.board-strip .what{font-weight:600;font-variation-settings:"wdth" 110}
+.board-strip .dots{flex:1;border-bottom:var(--line) dotted rgba(212,176,104,.55);transform:translateY(-5px)}
+.board-strip .price{font-family:var(--f-hair);font-size:1.45rem;font-weight:600;color:var(--gilt);line-height:1}
+.board-strip .price small{font-size:.62em;font-style:italic;font-weight:500;margin-right:.3em;color:var(--on-dark-soft)}
+.ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.status{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin-top:22px;font-size:.95rem;color:var(--on-dark-soft)}
+.status .open{display:inline-flex;align-items:center;gap:8px;color:var(--on-dark);font-weight:600}
+.status .dot{width:10px;height:10px;border-radius:50%;background:var(--gilt);box-shadow:0 0 0 4px rgba(212,176,104,.2)}
+.status .dot.shut{background:var(--stone-300);box-shadow:none}
+
+.window{position:relative;margin:0;min-height:560px;border:var(--line) solid rgba(238,241,239,.7);padding:10px;background:var(--stone-900)}
+.window-pane{position:relative;height:100%;overflow:hidden;border:var(--line) solid rgba(238,241,239,.35)}
+.window-pane img{width:100%;height:100%!important;object-fit:cover;object-position:50% 30%}
+.lace-shadow{position:absolute;z-index:2;left:-25%;right:-25%;top:96px;height:520px;filter:blur(1.6px);pointer-events:none;opacity:.26;mix-blend-mode:multiply;animation:sun 2.2s var(--ease-out) both .3s}
+.lace-shadow i{position:absolute;inset:0;background:#081016;
+  -webkit-mask:var(--lace-open) repeat-x 0 0/360px auto;mask:var(--lace-open) repeat-x 0 0/360px auto;
+  transform:translate3d(var(--sx,0px),0,0) rotate(7deg) skewX(var(--sk,-34deg)) scaleY(2.4);transform-origin:50% 0}
+@keyframes sun{from{opacity:0}to{opacity:.26}}
+.glass{position:absolute;left:10px;right:10px;bottom:10px;padding:18px 20px;text-align:center;background:linear-gradient(to top,rgba(23,29,34,.82),rgba(23,29,34,0))}
+.glass span{font-family:var(--f-sign);font-variation-settings:"wdth" 125;font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:.8rem;color:var(--gilt)}
+.window::before,.window::after{content:"";position:absolute;top:-2px;bottom:-2px;width:10px;background:var(--stone-900);border-inline:var(--line) solid rgba(238,241,239,.7)}
+.window::before{left:-14px}.window::after{right:-14px}
+
+/* ---------- family ---------- */
+.section{padding-block:calc(var(--course)*1.5)}
+.family-head{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,5vw,80px);align-items:end;margin-bottom:var(--course)}
+.family-head p{margin:0;color:var(--ink-soft);font-size:1.1rem}
+.family-grid{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(28px,5vw,80px)}
+.family-photo{margin:0;position:relative;min-height:540px}
+.family-photo img{position:absolute;inset:0;width:100%;height:100%!important;object-fit:cover;object-position:40% 40%}
+.family-photo figcaption{position:absolute;left:0;bottom:0;background:var(--iron);color:var(--on-dark);padding:14px 18px;max-width:80%}
+.family-photo figcaption .sign{color:var(--gilt)}
+.rows{list-style:none;margin:0;padding:0;border-top:var(--line) solid var(--ink)}
+.row{display:grid;grid-template-columns:120px minmax(0,1fr);gap:24px;padding:28px 0;border-bottom:var(--line) solid var(--lime-3)}
+.row:last-child{border-bottom-color:var(--ink)}
+.row .thumb{width:120px;height:144px!important;object-fit:cover}
+.row .h3{margin-bottom:8px}
+.row p{margin:0 0 12px;color:var(--ink-soft)}
+.row p strong{color:var(--ink);font-weight:700}
+.row .link{color:var(--iron)}
+
+/* ---------- price board ---------- */
+.board-sec{background:var(--lime-2)}
+.board-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px 40px;margin-bottom:48px}
+.board-head p{margin:0;max-width:44ch;color:var(--ink-soft)}
+.board-head p a{color:var(--iron);font-weight:700}
+.board{background:var(--iron);color:var(--on-dark);padding:10px;box-shadow:0 30px 60px -30px rgba(20,30,25,.55)}
+.board-inner{border:var(--line) solid var(--gilt-deep);padding:clamp(24px,4vw,56px);display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:clamp(32px,5vw,72px)}
+.board-col h3{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:14px;border-bottom:var(--line) solid var(--gilt-deep);margin-bottom:8px}
+.board-col h3 .sign{font-size:1.1rem;letter-spacing:.24em;color:var(--gilt)}
+.board-col h3 a{font-family:var(--f-sign);font-size:.9rem;font-weight:700;color:var(--on-dark);letter-spacing:.02em;text-transform:none;font-variation-settings:"wdth" 100}
+.board-col h3 a:hover{color:var(--gilt)}
+.women-lists{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.grp{margin-top:18px}
+.grp h4{margin:0 0 4px;font-family:var(--f-hair);font-style:italic;font-weight:500;font-size:1.15rem;color:var(--gilt)}
+.menu{list-style:none;margin:0;padding:0}
+.menu li{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:14px;padding:9px 0;border-bottom:var(--line) solid rgba(238,241,239,.1)}
+.menu .n{font-weight:600;line-height:1.3}
+.menu .n em{display:block;font-style:normal;font-weight:400;font-size:.85rem;color:var(--on-iron-soft)}
+.menu .t{font-size:.82rem;color:var(--on-iron-soft);grid-column:1}
+.menu .p{grid-row:1/span 2;grid-column:2;align-self:center;text-align:right;font-family:var(--f-hair);font-size:1.2rem;font-weight:600;color:var(--on-dark);white-space:nowrap}
+.menu .p small{font-style:italic;font-weight:500;font-size:.72em;color:var(--on-iron-soft);margin-right:.25em}
+.menu .p.v{font-family:var(--f-sign);font-size:.82rem;font-weight:500;color:var(--on-iron-soft);font-style:normal}
+.menu .p.fixed{color:var(--gilt)}
+.side-col{display:grid;gap:40px;align-content:start}
+.board-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-top:40px;padding-top:24px;border-top:var(--line) solid var(--gilt-deep)}
+.board-foot p{margin:0;color:var(--on-iron-soft);font-size:.95rem}
+.board .btn-primary{--b-bg:var(--gilt);--b-fg:var(--stone-950);--b-bd:var(--gilt)}
+.board .btn-primary:hover{--b-bg:#e0c07c;--b-bd:#e0c07c}
+
+/* ---------- inside ---------- */
+.inside-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
+.inside-photo{margin:0;position:sticky;top:120px}
+.inside-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:60% 50%;border:var(--line) solid rgba(238,241,239,.7);padding:10px;background:var(--stone-900)}
+.inside-copy .lede{color:var(--gilt);margin:20px 0 0}
+.inside-copy .body{color:var(--on-dark-soft);margin:16px 0 0}
+.ph{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-sign);font-weight:700;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-variation-settings:"wdth" 115;color:var(--on-dark);border:var(--line) dashed rgba(238,241,239,.6);padding:3px 9px;border-radius:2px;white-space:nowrap}
+.voices{margin-top:var(--course);border-top:var(--line) solid rgba(238,241,239,.3)}
+.voices-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:24px 0}
+.stars{display:inline-flex;align-items:center;gap:10px;color:var(--on-dark-soft);font-size:.95rem}
+.quote{margin:0;padding:24px 0;border-top:var(--line) solid rgba(238,241,239,.12);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 24px;align-items:start}
+.quote p{margin:0;font-family:var(--f-hair);font-style:italic;font-size:1.35rem;line-height:1.35;color:var(--on-dark)}
+.quote footer{grid-column:1;color:var(--on-dark-soft);font-size:.92rem}
+.quote .ph{grid-column:2;grid-row:1}
+.stylist{margin-top:40px;display:grid;grid-template-columns:140px minmax(0,1fr);gap:24px;padding:24px;border:var(--line) dashed rgba(212,176,104,.7)}
+.stylist .slot{aspect-ratio:4/5;border:var(--line) dashed rgba(238,241,239,.45);display:grid;place-items:center;text-align:center;font-size:.8rem;color:var(--on-dark-soft);padding:8px}
+.stylist .h3{margin:0 0 6px}
+.stylist p{margin:0;color:var(--on-dark-soft)}
+
+/* ---------- visit ---------- */
+.visit-grid{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,4fr) minmax(0,5fr);gap:clamp(28px,4vw,64px);margin-top:56px}
+.addr{font-style:normal}
+.addr .big{font-weight:700;font-size:1.3rem;line-height:1.3;font-variation-settings:"wdth" 108}
+.addr p{margin:0 0 20px}
+.contact{list-style:none;margin:0;padding:0;border-top:var(--line) solid var(--ink)}
+.contact li{border-bottom:var(--line) solid var(--lime-3)}
+.contact a{display:flex;align-items:center;gap:12px;padding:14px 0;text-decoration:none;font-weight:600;color:var(--ink);transition:color .2s}
+.contact a:hover{color:var(--iron-600)}
+.contact a span{word-break:break-word}
+.contact svg{width:20px;height:20px;flex:none;color:var(--iron)}
+.pay{margin-top:24px;color:var(--ink-soft);font-size:.95rem}
+.hours{width:100%;border-collapse:collapse;border-top:var(--line) solid var(--ink)}
+.hours caption{text-align:left;padding-bottom:12px}
+.hours th,.hours td{padding:12px 0;border-bottom:var(--line) solid var(--lime-3);text-align:left;font-weight:500}
+.hours td{text-align:right}
+.hours tr.today th,.hours tr.today td{background:var(--iron);color:var(--lime);font-weight:700}
+.hours tr.today th{padding-left:14px}
+.hours tr.today td{padding-right:14px}
+.hours tr.today th::after{content:"Today";margin-left:10px;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gilt);font-variation-settings:"wdth" 125;vertical-align:.15em}
+.hours tr.closed td{color:var(--ink-soft)}
+.hours tr.today.closed td{color:var(--lime)}
+.map{position:relative;margin:0;border:var(--line) solid var(--ink);padding:8px;background:var(--lime)}
+.map{display:grid;min-height:376px}
+.map>*{grid-area:1/1}
+.map iframe{position:relative;z-index:1;display:block;width:100%;height:100%;min-height:360px;border:0;filter:grayscale(.55) contrast(1.05)}
+.map-fallback{display:grid;place-content:center;justify-items:center;gap:10px;text-align:center;padding:24px;color:var(--ink)}
+.map-fallback svg{width:44px;height:44px;color:var(--iron)}
+.map-fallback p{margin:0;font-weight:600}
+.map-fallback a{color:var(--iron);font-weight:700}
+
+/* ---------- close ---------- */
+.close{position:relative;text-align:center;padding-bottom:calc(var(--course)*1.5)}
+.close .verandah{background:var(--gilt);opacity:.9}
+.close .wrap{padding-top:calc(var(--course)*1.25)}
+.close .display{max-width:16ch;margin-inline:auto;color:var(--gilt);font-variation-settings:"wdth" 116;letter-spacing:-.02em}
+.close p{margin:24px auto 0;max-width:46ch;color:var(--on-iron-soft);font-size:1.1rem}
+.close .ctas{justify-content:center}
+.close .btn-ghost{--b-bd:rgba(238,241,239,.6)}
+
+/* ---------- footer ---------- */
+.foot{background:var(--stone-950);color:var(--on-dark-soft);padding:56px 0 40px;font-size:.92rem}
+.foot-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px 48px;align-items:start}
+.foot .mark{margin-bottom:10px}
+.foot p{margin:0}
+.foot a{color:var(--on-dark)}
+.foot .fine{margin-top:36px;padding-top:20px;border-top:var(--line) solid rgba(238,241,239,.1);font-size:.82rem;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+/* ---------- mobile book bar ---------- */
+.bookbar{display:none}
+
+/* ---------- responsive ---------- */
+@media (max-width:1100px){
+  .board-inner{grid-template-columns:1fr}
+  .side-col{grid-template-columns:1fr 1fr}
+  .visit-grid{grid-template-columns:1fr 1fr}
+  .visit-grid .map{grid-column:1/-1}
+  .nav .hide-md{display:none}
+}
+@media (max-width:880px){
+  :root{--course:56px}
+  .hero-grid,.family-head,.family-grid,.inside-grid{grid-template-columns:1fr}
+  .window{min-height:0;height:min(78vh,620px);margin-inline:14px}
+  .family-photo{min-height:0;aspect-ratio:4/3}
+  .inside-photo{position:static;max-width:520px}
+  .hero-copy .display{font-size:clamp(2.35rem,7.4vw,3.9rem);max-width:14ch}
+  .verandah{height:52px}
+}
+@media (max-width:720px){
+  body{font-size:1rem;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+  .nav a:not(.btn){display:none}
+  .fascia .wrap{min-height:62px}
+  .mark b{font-size:1.35rem}.mark i{font-size:1.6rem}
+  .mark small{display:none}
+  .verandah{height:40px}
+  .fascia .nav .btn{display:none}
+  .glass span{letter-spacing:.18em;font-size:.75rem}
+  .inside-photo img{aspect-ratio:4/3;object-position:70% 35%}
+  .hero-copy .display{font-size:clamp(2.35rem,10.4vw,3rem)}
+  .ctas .btn{flex:1 1 100%}
+  .women-lists,.side-col{grid-template-columns:1fr}
+  .visit-grid{grid-template-columns:1fr}
+  .row{grid-template-columns:88px minmax(0,1fr);gap:18px}
+  .row .thumb{width:88px;height:108px!important}
+  .quote{grid-template-columns:1fr}
+  .quote .ph{grid-column:1;grid-row:auto;justify-self:start}
+  .stylist{grid-template-columns:96px minmax(0,1fr);padding:18px;gap:16px}
+  .board{padding:6px}
+  .bookbar{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--iron);border-top:var(--line) solid var(--gilt-deep)}
+  .bookbar .btn{min-height:52px;padding:.7em .8em}
+  .bookbar .btn-ghost{--b-bd:rgba(238,241,239,.6)}
+  .foot{padding-bottom:40px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="fascia">
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="FabHair Ballarat, home"><b>FAB</b><i>HAIR</i><small>BALLARAT</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#family" class="hide-md">For the family</a>
+      <a href="#prices">Prices</a>
+      <a href="#visit">Hours &amp; map</a>
+      <a class="tel hide-md" href="tel:+61343114726"><svg aria-hidden="true"><use href="#i-phone"/></svg>(03) 4311 4726</a>
+      <a class="btn btn-primary" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services">Book online</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero stone" id="top" aria-labelledby="hero-title">
+  <div class="verandah" aria-hidden="true"></div>
+  <div class="lace-shadow" aria-hidden="true"><i></i></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1 class="display" id="hero-title">Your family’s salon on Victoria&nbsp;Street.</h1>
+      <p class="lede">We care about your hair.</p>
+      <p class="body">Balayage, foils, keratin and MUK colour, with quick cuts for the kids and clipper cuts for the blokes. Choose your time online, day or night.</p>
+      <ul class="board-strip num" aria-label="Starting prices">
+        <li><span class="what">MUK colour</span><span class="dots" aria-hidden="true"></span><span class="price"><small>from</small>$140</span></li>
+        <li><span class="what">Kids’ cut</span><span class="dots" aria-hidden="true"></span><span class="price">$28</span></li>
+        <li><span class="what">Clipper only</span><span class="dots" aria-hidden="true"></span><span class="price">$25</span></li>
+      </ul>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services">Book online <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost" href="tel:+61343114726"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call (03) 4311 4726</a>
+      </div>
+      <p class="status"><span class="open" id="open-now"><span class="dot" aria-hidden="true"></span>Mon–Fri from 9:30 · Sat 9–3</span><span>2/75 Victoria Street, Ballarat East</span></p>
+    </div>
+    <figure class="window">
+      <div class="window-pane">
+        <img src="https://images.unsplash.com/photo-1554519934-e32b1629d9ee?w=1100&q=78&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1554519934-e32b1629d9ee?w=640&q=75&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1554519934-e32b1629d9ee?w=1100&q=78&auto=format&fit=crop 1100w" sizes="(max-width:880px) 92vw, 42vw" alt="Long, softly waved balayage seen from behind in a bright salon" fetchpriority="high" width="1100" height="1650">
+      </div>
+      <figcaption class="glass"><span>Colour · Cuts · Keratin</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="light section" id="family" aria-labelledby="family-title">
+  <div class="wrap">
+    <div class="family-head">
+      <h2 class="h2" id="family-title">One salon for the whole family.</h2>
+      <p>Your colour, the kids’ trims and a quick clipper cut, all at one salon on Victoria Street and all bookable online.</p>
+    </div>
+    <div class="family-grid">
+      <figure class="family-photo">
+        <img src="https://images.unsplash.com/photo-1707812343087-c9ff9e5abb43?w=1100&q=75&auto=format&fit=crop" alt="A stylist painting colour onto a section of hair laid on foil" loading="lazy" width="1100" height="1650">
+        <figcaption><span class="sign">Face frame highlights</span><br><span class="hair" style="font-size:1.25rem">toner and haircut included, from $195</span></figcaption>
+      </figure>
+      <ul class="rows">
+        <li class="row row-lead">
+          <img class="thumb" src="https://images.unsplash.com/photo-1605980625600-88b46abafa8d?w=320&h=384&q=75&auto=format&fit=crop" alt="Soft ash-blonde balayage waves seen from behind" loading="lazy" width="120" height="144">
+          <div>
+                        <h3 class="h3">Colour worth the chair.</h3>
+            <p>MUK colour <strong>from $140</strong>. Face frame or scattered highlights with toner and haircut <strong>from $195</strong>. Keratin straightening <strong>around $390</strong>. Plus balayage, foils, toners and perms.</p>
+            <a class="link" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services?category_id=G7DTQ3RQL4KJIRWI7SUGHJJM">Book women’s services <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </li>
+        <li class="row">
+          <img class="thumb" src="https://images.unsplash.com/photo-1704072650662-76df3af134a7?w=320&h=384&q=75&auto=format&fit=crop&crop=faces" alt="A young boy in a cutting cape, sitting still for his haircut" loading="lazy" width="120" height="144">
+          <div>
+                        <h3 class="h3">Kids’ cuts in twenty minutes.</h3>
+            <p>Kids’ haircut <strong>$28</strong>. Under-sixes <strong>$25</strong>. Both take 20 minutes, so you can book them next to your own appointment.</p>
+            <a class="link" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services?category_id=QABL5EFNG2TLEUFJUEBDQNZU">Book a kids’ cut <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </li>
+        <li class="row">
+          <img class="thumb" src="https://images.unsplash.com/photo-1599351431408-433ef72fe40b?w=320&h=384&q=75&auto=format&fit=crop" alt="Clippers tidying the back of a man's short haircut" loading="lazy" width="120" height="144">
+          <div>
+                        <h3 class="h3">Clipper, scissors, done.</h3>
+            <p>Clipper only <strong>$25</strong> in 15 minutes. Clipper and scissors <strong>$38</strong> in 30. Men’s colour and tip caps too.</p>
+            <a class="link" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services?category_id=UT4VU2MKHXZMDDRDUQTWDJKC">Book men’s services <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section board-sec light" id="prices" aria-labelledby="prices-title">
+  <div class="wrap">
+    <div class="board-head">
+      <h2 class="h2" id="prices-title">The price board.</h2>
+      <p>Every service, price and time, straight from our booking system. For anything marked “price varies”, call us on <a href="tel:+61343114726">(03)&nbsp;4311&nbsp;4726</a>.</p>
+    </div>
+    <div class="board">
+      <div class="board-inner num">
+        <div class="board-col">
+          <h3><span class="sign">Women</span><a href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services?category_id=G7DTQ3RQL4KJIRWI7SUGHJJM">Book women’s →</a></h3>
+          <div class="women-lists">
+            <div>
+              <div class="grp">
+                <h4>MUK Global Colour</h4>
+                <ul class="menu">
+                  <li><span class="n">Base colour</span><span class="t">1 hr 30 min+</span><span class="p fixed"><small>from</small>$140</span></li>
+                  <li><span class="n">Full head foil</span><span class="t">3 hr</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Balayage</span><span class="t">3 hr</span><span class="p v">Price varies</span></li>
+                </ul>
+              </div>
+              <div class="grp">
+                <h4>Colour &amp; lightening</h4>
+                <ul class="menu">
+                  <li><span class="n">Face frame / scattered highlights<em>includes toner and haircut</em></span><span class="t">2 hr</span><span class="p fixed"><small>from</small>$195</span></li>
+                  <li><span class="n">Balayage</span><span class="t">2 hr 30 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">½ head foils</span><span class="t">2 hr 30 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Base colour</span><span class="t">1 hr 30 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Regrowth bleach with toner</span><span class="t">2 hr 30 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Regrowth colour</span><span class="t">30 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Toner</span><span class="t">30 min</span><span class="p v">Price varies</span></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="grp">
+                <h4>Cut &amp; style</h4>
+                <ul class="menu">
+                  <li><span class="n">Restyle</span><span class="t">30 min</span><span class="p fixed">$45</span></li>
+                  <li><span class="n">Cut, wash &amp; blow dry</span><span class="t">40 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Wash &amp; blow dry</span><span class="t">30 min</span><span class="p v">Price varies</span></li>
+                  <li><span class="n">Hairups / styling</span><span class="t">1 hr</span><span class="p v">Price varies</span></li>
+                </ul>
+              </div>
+              <div class="grp">
+                <h4>Smoothing &amp; texture</h4>
+                <ul class="menu">
+                  <li><span class="n">Keratin straightening</span><span class="t">3 hr</span><span class="p fixed"><small>around</small>$390</span></li>
+                  <li><span class="n">Perm</span><span class="t">2 hr 30 min</span><span class="p v">Price varies</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-col">
+          <div class="board-col">
+            <h3><span class="sign">Kids</span><a href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services?category_id=QABL5EFNG2TLEUFJUEBDQNZU">Book kids’ →</a></h3>
+            <ul class="menu">
+              <li><span class="n">Kids haircut</span><span class="t">20 min</span><span class="p fixed">$28</span></li>
+              <li><span class="n">Children under 6</span><span class="t">20 min</span><span class="p fixed">$25</span></li>
+            </ul>
+          </div>
+          <div class="board-col">
+            <h3><span class="sign">Men</span><a href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services?category_id=UT4VU2MKHXZMDDRDUQTWDJKC">Book men’s →</a></h3>
+            <ul class="menu">
+              <li><span class="n">Clipper only</span><span class="t">15 min</span><span class="p fixed">$25</span></li>
+              <li><span class="n">Clipper + scissors</span><span class="t">30 min</span><span class="p fixed">$38</span></li>
+              <li><span class="n">Men’s haircut</span><span class="t">20 min</span><span class="p v">Price varies</span></li>
+              <li><span class="n">Men’s tip cap</span><span class="t">1 hr 30 min</span><span class="p v">Price varies</span></li>
+              <li><span class="n">Men’s base colour</span><span class="t">1 hr 30 min</span><span class="p v">Price varies</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="board-foot" style="margin:0;padding:22px clamp(24px,4vw,56px) 14px;border-top:0">
+        <p>Pick your service online, then a day and time that suits you.</p>
+        <a class="btn btn-primary" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services">See open times <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stone section" id="inside" aria-labelledby="inside-title">
+  <div class="wrap inside-grid">
+    <figure class="inside-photo">
+      <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=900&q=75&auto=format&fit=crop" alt="A smiling stylist blow-drying a client's bob with a round brush" loading="lazy" width="900" height="1125">
+    </figure>
+    <div class="inside-copy">
+      <h2 class="h2" id="inside-title">A relaxed chair in a friendly room.</h2>
+      <p class="lede">Luxurious, relaxed and friendly.</p>
+      <p class="body">FabHair is run by a qualified hair stylist with a highly trained team. Come in for a luxurious, relaxed service in a comfortable, friendly salon, whether it’s a three-hour balayage or a fifteen-minute clipper cut.</p>
+
+      <div class="voices" aria-labelledby="voices-title">
+        <div class="voices-head">
+          <h3 class="h3" id="voices-title">What clients say</h3>
+          <span class="stars">Facebook: 100% recommend · 8 reviews <span class="ph">Placeholder · confirm</span></span>
+        </div>
+        <blockquote class="quote">
+          <p>“Sample review. A client’s own words about their colour or balayage go here.”</p>
+          <footer>Client name · Google review</footer>
+          <span class="ph">Placeholder review</span>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Sample review. A parent’s words about booking the kids in go here.”</p>
+          <footer>Client name · Facebook review</footer>
+          <span class="ph">Placeholder review</span>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Sample review. A regular’s words about a quick clipper cut go here.”</p>
+          <footer>Client name · Google review</footer>
+          <span class="ph">Placeholder review</span>
+        </blockquote>
+      </div>
+
+      <div class="stylist">
+        <div class="slot">Stylist photo</div>
+        <div>
+          <h3 class="h3">Your stylist’s name</h3>
+          <p>Two or three lines about the owner-stylist: training, favourite work (colour, keratin, hairups) and what clients can expect in the chair.</p>
+          <p style="margin-top:12px"><span class="ph">Placeholder bio</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="light section" id="visit" aria-labelledby="visit-title">
+  <div class="wrap">
+    <h2 class="h2" id="visit-title">Find us on Victoria Street.</h2>
+    <div class="visit-grid">
+      <address class="addr">
+        <p class="big">FabHair Ballarat<br>2/75 Victoria Street<br>Ballarat East VIC 3350</p>
+        <ul class="contact">
+          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=2/75+Victoria+Street+Ballarat+East+VIC+3350" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Get directions</span></a></li>
+          <li><a href="tel:+61343114726"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>(03) 4311 4726</span></a></li>
+          <li><a href="mailto:dharshana_nuwan@yahoo.com.au"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>dharshana_nuwan@yahoo.com.au</span></a></li>
+          <li><a href="https://www.facebook.com/FabHairBallarat/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-fb"/></svg><span>FabHair Ballarat on Facebook</span></a></li>
+        </ul>
+        <p class="pay">We take Visa, Mastercard, American Express, JCB, Apple Pay, Google Pay and Afterpay.</p>
+      </address>
+      <table class="hours num" id="hours">
+        <caption><span class="h3">Opening hours</span></caption>
+        <tbody>
+          <tr data-d="1"><th scope="row">Monday</th><td>9:30 am – 5:00 pm</td></tr>
+          <tr data-d="2"><th scope="row">Tuesday</th><td>9:30 am – 5:00 pm</td></tr>
+          <tr data-d="3"><th scope="row">Wednesday</th><td>9:30 am – 5:00 pm</td></tr>
+          <tr data-d="4"><th scope="row">Thursday</th><td>10:00 am – 5:00 pm</td></tr>
+          <tr data-d="5"><th scope="row">Friday</th><td>9:30 am – 5:00 pm</td></tr>
+          <tr data-d="6"><th scope="row">Saturday</th><td>9:00 am – 3:00 pm</td></tr>
+          <tr data-d="0" class="closed"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <figure class="map">
+        <div class="map-fallback"><svg aria-hidden="true"><use href="#i-pin"/></svg><p>2/75 Victoria Street<br>Ballarat East VIC 3350</p><a href="https://www.google.com/maps/dir/?api=1&amp;destination=2/75+Victoria+Street+Ballarat+East+VIC+3350" target="_blank" rel="noopener">Open in Google Maps</a></div>
+        <iframe title="Map showing FabHair Ballarat at 2/75 Victoria Street, Ballarat East" src="https://maps.google.com/maps?q=2%2F75%20Victoria%20Street%2C%20Ballarat%20East%20VIC%203350&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="close iron" aria-labelledby="close-title">
+  <div class="verandah" aria-hidden="true"></div>
+  <div class="wrap">
+    <h2 class="display" id="close-title">Pull up a chair on Victoria Street.</h2>
+    <p>Book online in a few taps, any time of day. Or call us on (03) 4311 4726 and we’ll find you a spot.</p>
+    <div class="ctas">
+      <a class="btn btn-primary" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services">Book online <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-ghost" href="tel:+61343114726"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call the salon</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="#top" aria-label="FabHair Ballarat, back to top"><b>FAB</b><i>HAIR</i></a>
+        <p class="hair" style="font-size:1.1rem;color:var(--gilt)">We care about your hair.</p>
+      </div>
+      <p>2/75 Victoria Street<br>Ballarat East VIC 3350<br><a href="tel:+61343114726">(03) 4311 4726</a></p>
+      <p>Mon–Wed, Fri 9:30–5<br>Thu 10–5 · Sat 9–3<br>Sun closed</p>
+    </div>
+    <div class="fine">
+      <span>© <span id="yr">2026</span> FabHair Ballarat</span>
+      <span>Photography: Unsplash stand-ins until FabHair’s own photos are added.</span>
+    </div>
+  </div>
+</footer>
+
+<nav class="bookbar" aria-label="Quick actions">
+  <a class="btn btn-primary" href="https://book.squareup.com/appointments/j1bpero8q4fqr0/location/LZ997ZG311EPA/services">Book online</a>
+  <a class="btn btn-ghost" href="tel:+61343114726"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+</nav>
+
+<script>
+(function(){
+  // Hours (Ballarat time): [open, close] in minutes; null = closed. Index 0 = Sunday.
+  var H=[null,[570,1020],[570,1020],[570,1020],[600,1020],[570,1020],[540,900]];
+  var names=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  function fmt(m){var h=Math.floor(m/60),mm=m%60,ap=h>=12?'pm':'am';h=h%12||12;return h+(mm?':'+String(mm).padStart(2,'0'):'')+' '+ap}
+  var now;
+  try{
+    var parts=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Melbourne',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
+    var get=function(t){var p=parts.find(function(x){return x.type===t});return p?p.value:''};
+    var wd=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(get('weekday'));
+    now={d:wd<0?new Date().getDay():wd,m:(parseInt(get('hour'),10)%24)*60+parseInt(get('minute'),10)};
+  }catch(e){var d=new Date();now={d:d.getDay(),m:d.getHours()*60+d.getMinutes()}}
+
+  var row=document.querySelector('#hours tr[data-d="'+now.d+'"]');
+  if(row){row.classList.add('today');row.setAttribute('aria-current','date')}
+
+  var el=document.getElementById('open-now');
+  if(el){
+    var t=H[now.d],msg,open=false;
+    if(t&&now.m>=t[0]&&now.m<t[1]){open=true;msg='Open now · until '+fmt(t[1])}
+    else if(t&&now.m<t[0]){msg='Opens today at '+fmt(t[0])}
+    else{var n=now.d,k=0;do{n=(n+1)%7;k++}while(!H[n]&&k<7);msg='Closed now · opens '+(k===1?'tomorrow':names[n])+' '+fmt(H[n][0])}
+    el.innerHTML='<span class="dot'+(open?'':' shut')+'" aria-hidden="true"></span>'+msg;
+  }
+  var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
+
+  // The one authored motion: verandah lace shadow drifts as the sun moves along the street.
+  var sh=document.querySelector('.lace-shadow i');
+  var mq=window.matchMedia('(prefers-reduced-motion: reduce)');
+  if(sh&&!mq.matches){
+    var hero=document.querySelector('.hero'),raf=0;
+    var upd=function(){raf=0;var h=hero.offsetHeight||1;var p=Math.min(1,Math.max(0,window.scrollY/h));
+      sh.style.setProperty('--sx',(-60+p*220).toFixed(1)+'px');
+      sh.style.setProperty('--sk',(-26+p*12).toFixed(2)+'deg');};
+    window.addEventListener('scroll',function(){if(!raf)raf=requestAnimationFrame(upd)},{passive:true});
+    upd();
+  }
+})();
+</script>
+</body>
+</html>
